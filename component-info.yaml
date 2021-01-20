@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chrissite
+  description: chrissite
+  annotations:
+    github.com/project-slug: chrisdoc-org/chrissite
+spec:
+  type: website
+  lifecycle: experimental
+  owner: chrisdoc-org
